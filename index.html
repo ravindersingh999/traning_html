@@ -34,12 +34,13 @@
       <form action="https://www.freecatphotoapp.com/submit-cat-photo">
         <input type="text" placeholder="cat photo URL" required />
         <button type="submit">Submit</button>
+
         <label for="indoor">
           <input id="indoor" type="radio" name="indoor-outdoor" />Indoor
         </label>
         <label for="outdoor">
           <input id="outdoor" type="radio" name="indoor-outdoor" />Outdoor
-        </label>
+        </label><br>
 
         <h4>Personality</h4>
         <label for="loving">
@@ -51,7 +52,23 @@
         </label>
         <label for="Extrovert">
           <input id="Extrovert" type="checkbox" name="personality" />Extrovert
-        </label>
+        </label><br>
+
+        <label for="indoor">
+            <input id="indoor" type="radio" value="indoor" name="indoor-outdoor"> Indoor
+            </label>
+          <label for="outdoor">
+            <input id="outdoor" type="radio" value="outdoor" name="indoor-outdoor"> Outdoor
+            </label><br>
+          <label for="loving">
+            <input id="loving" type="checkbox" value="loving" name="personality"> Loving
+            </label>
+          <label for="lazy">
+            <input id="lazy" type="checkbox" value="lazy" name="personality"> Lazy
+            </label>
+          <label for="energetic">
+            <input id="energetic" type="checkbox" value="energetic" name="personality"> Energetic
+            </label><br>
       </form>
     </main>
   </body>
